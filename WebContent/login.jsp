@@ -9,7 +9,7 @@
 <body>
 	<%--Comentario JSP --%>
 	<%!int i = 0;%>
-	<form method="get" action="./ingrese">
+	<form method="get" action="<%=request.getContextPath() %>/ingrese">
 		<table>
 			<tr>
 				<td><label>Usuario:</label></td>
